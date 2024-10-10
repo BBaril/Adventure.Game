@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Adventure Game</title>
+    <script 
+        type="module"
+        src="https://pyscript.net/releases/2024.1.1/core.js"
+    ></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <p>Choose Your Path</p>
+    <input type="text" id="response" placeholder="Type in your response"/>
+    <button py-click="next">Next</button>
+    <div id="output"></div>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
+</body>
+</html>
